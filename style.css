@@ -43,3 +43,41 @@ body{
     border-radius: 10px;
     padding-left:10px;
 }
+
+.container-conteudo-principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.sessao-conteudo-principal{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    background-color: whitesmoke;
+    width: 900px;
+    height: 600px;
+    padding: 50px 0;
+}
+
+.container-modificadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container-modificadores > div p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-modificadores > div input{
+    height: 30px;
+    border-radius: 10px;
+    padding-left:10px;
+}
